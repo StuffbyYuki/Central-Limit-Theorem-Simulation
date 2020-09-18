@@ -14,7 +14,7 @@ set.seed(0)
 clt <- NULL 
 
 # Sample size for each sample
-n <- 10
+n <- 100
 
 # Population - Uniform distribution
 p <- runif(50)
