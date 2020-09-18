@@ -8,10 +8,10 @@ clt <- NULL
 n <- 100
 
 # Population - Uniform distribution
-p <- runif(50)
+p <- rbinom(50, 1, 0.5)
 
 # Number of sample means to take
-n_means <- 10000
+n_means <- 1000
 
 # Calculate 
 for (i in 1:n_means) {
