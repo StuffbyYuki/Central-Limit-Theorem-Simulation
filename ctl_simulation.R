@@ -5,13 +5,13 @@ set.seed(0)
 clt <- NULL 
 
 # Sample size for each sample
-n <- 10
+n <- 100
 
 # Population - Uniform distribution
 p <- runif(50)
 
 # Number of sample means to take
-n_means <- 1000
+n_means <- 10000
 
 # Calculate 
 for (i in 1:n_means) {
