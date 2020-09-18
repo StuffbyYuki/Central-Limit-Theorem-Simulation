@@ -3,9 +3,9 @@ title: "Central Limit Theorem Simulation"
 output: html_notebook
 ---
 
-##### Simply put, central limit theorem says that sample means are normally distributed if you take enough number of them, no matter what distribution the population has (as long as the mean can be calculated from the population distribution). 
+##### Simply put, central limit theorem says that sample means become normally distributed as the sample size increases, no matter what distribution the population has (as long as the mean can be calculated from the population distribution). 
 
-***Change the number of sample means to take to see how that changes the resulting distribution.***
+***Change the sample size to see how that changes the resulting distribution.***
 ```{r}
 # Central limit theorem simulation 
 set.seed(0) 
@@ -20,7 +20,7 @@ n <- 10
 p <- runif(50)
 
 # Number of sample means to take
-n_means <- 1000
+n_means <- 10000
 
 # Calculate 
 for (i in 1:n_means) {
